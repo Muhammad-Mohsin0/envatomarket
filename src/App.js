@@ -13,7 +13,8 @@ function App() {
       <OurServices />
       <Delivering />
       <JoinUs />
-      <GetApps />
+
+      {/* <GetApps /> */}
     </>
   );
 }
