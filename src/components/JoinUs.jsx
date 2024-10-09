@@ -6,8 +6,8 @@ import Van from "../assets/delivery-van.png";
 const JoinUs = () => {
   return (
     <>
-      <div className="h-screen relative">
-        <div className="absolute inset-0 bg-white clip-path-inverse-ellipse"></div>
+      <div className="h-screen relative ">
+        <div className="absolute inset-0 bg-white clip-path-inverse-ellipse "></div>
         <div className="absolute inset-0 clip-path-ellipse-20 ">
           <div className="absolute inset-0 bg-delivery-bg bg-cover bg-center bg-fixed"></div>
           <div className="absolute inset-0 bg-black opacity-50 "> </div>
@@ -18,7 +18,7 @@ const JoinUs = () => {
           </h1>
         </div>
         <div className="flex items-center justify-center gap-8 w-full mt-12">
-          <div className="w-[25%] flex flex-wrap pl-6 items-center rounded-xl bg-[#253138] relative hover:shadow-lg">
+          <div className="w-[25%] flex flex-wrap pl-6 items-center rounded-xl bg-[#253138] relative hover:shadow-lg ">
             <img
               src={Cycle}
               alt=""
@@ -29,7 +29,7 @@ const JoinUs = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
-            <button className="bg-[#ff9966] text-white font-semibold px-6 py-4 rounded-lg mt-6 mb-12 ">
+            <button className="bg-[#ff9966] text-white font-semibold px-6 py-4 rounded-lg mt-8 mb-6">
               Join Us
             </button>
           </div>
@@ -39,14 +39,12 @@ const JoinUs = () => {
               alt=""
               className="absolute w-28 p-4 top-[-90px] bg-[#e1ecb8] rounded-lg"
             />
-            <h1 className="text-white text-2xl font-bold mt-20">
-              Motocycle Rider
-            </h1>
+            <h1 className="text-white text-2xl font-bold mt-20">Bike Rider</h1>
             <p className="text-gray-300 mt-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
-            <button className="bg-[#ff9966] text-white font-semibold px-6 py-4 rounded-lg mt-6 mb-12 ">
+            <button className="bg-[#ff9966] text-white font-semibold px-6 py-4 rounded-lg mt-8 mb-6 ">
               Join Us{" "}
             </button>
           </div>
@@ -63,7 +61,7 @@ const JoinUs = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
-            <button className="bg-[#ff9966] text-white font-semibold px-6 py-4 rounded-lg mt-6 mb-12 ">
+            <button className="bg-[#ff9966] text-white font-semibold px-6 py-4 rounded-lg mt-8 mb-6 ">
               Join Us{" "}
             </button>
           </div>
