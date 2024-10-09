@@ -1,13 +1,14 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .clip-path-custom-ellipse {
+    clip-path: ellipse(60% 50% at 50% 100%);
+  }
+  .clip-path-ellipse-20 {
+    clip-path: ellipse(70% 50% at 50% 20%);
+  }
+  .clip-path-inverse-ellipse {
+    clip-path: ellipse(70% 50% at 50% 30%);
+  }
 }
