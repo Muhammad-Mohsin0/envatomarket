@@ -3,12 +3,16 @@ import callimg from "../assets/call.jpg";
 
 const CallUs = () => {
   return (
-    <div className=" flex items-center justify-evenly">
+    <div className=" min-h-screen flex flex-col md:flex-row  items-center justify-evenly">
       <div>
-        <img src={callimg} alt="call" className="w-80 h-auto" />
+        <img
+          src={callimg}
+          alt="call"
+          className="w-[80%] md:w-96 mx-auto md:mx-0"
+        />
       </div>
-      <div className="w-[30%] my-36">
-        <h1 className="text-gray-700 text-4xl font-overpass font-bold">
+      <div className="w-full md:w-[30%] my-14 text-center md:text-left ">
+        <h1 className="text-gray-700 text-3xl lg:text-4xl font-overpass font-bold">
           Do you want a fast service? Just call us.
         </h1>
         <p className="mt-4 font-normal  text-gray-500">
